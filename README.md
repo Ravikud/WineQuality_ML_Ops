@@ -4,7 +4,7 @@ conda create -n winequal python=3.7 -y
 ```
 activate env
 ```bash
-activate winequal 
+activate winequal
 ```
 create requirements.txt & install it
 ```bash
@@ -36,4 +36,16 @@ git remote add origin https://github.com/Ravikud/WineQuality_ML_Ops.git
 ```
 ```bash
 git push -u origin main
+```
+tox command -
+```bash
+tox
+```
+pytest command -
+```bash
+pytest -v
+```
+Build your own package commands -
+```bash
+python setup.py install.
 ```
